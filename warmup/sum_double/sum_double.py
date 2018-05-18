@@ -11,3 +11,4 @@ if __name__ == "__main__":
     assert sum_double(2, 3) == 5
     assert sum_double(-4, 0) == -4
     assert sum_double(3, 3) == 12
+    print("All tests PASSED!")

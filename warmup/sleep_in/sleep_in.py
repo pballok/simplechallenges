@@ -6,3 +6,4 @@ if __name__ == "__main__":
     assert not sleep_in(True, False)
     assert sleep_in(False, True)
     assert sleep_in(True, True)
+    print("All tests PASSED!")
