@@ -1,0 +1,2 @@
+The player thinks of an integer number within the given range, the game must find out what it was by guessing.
+For every guess the player replies whether the guess was too low, too high or the game got it right.
