@@ -3,7 +3,9 @@ max_secret = 100
 
 def guess_one(turn, min_value, max_value):
     guess = (min_value + max_value) // 2
+    
     answer = input("Turn {}. Is it {}? Enter 'h' for too high, 'l' for too low or 'c' for correct: ".format(turn, guess))
+
     if answer[0] == 'h' or answer[0] == 'H':
         guess_one(turn + 1, min_value, guess - 1)
     elif answer[0] == 'l' or answer[0] == 'L':
