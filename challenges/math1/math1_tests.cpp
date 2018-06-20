@@ -6,7 +6,7 @@
 SCENARIO("Calculate result with limit 0", "[Math1]")
 {
     GIVEN("Adding all numbers divisible by 3 or 5, up to 0") {
-        auto result = challenges::sum_of_integers_divisible_by_3_or_5(0);
+        unsigned long result = challenges::sum_of_integers_divisible_by_3_or_5(0);
 
         THEN("The result must be 0") {
             REQUIRE(result == 0);
