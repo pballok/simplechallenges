@@ -23,3 +23,4 @@ set(CATCH2_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/external/src/catch2/single_include)
 enable_testing()
 
 add_subdirectory(math1)
+add_subdirectory(math2)
