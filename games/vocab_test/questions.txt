@@ -1,0 +1,3 @@
+alma * apple
+körte * pear
+narancs * orange

@@ -1,0 +1,2 @@
+This game can test your vocabulary. The input file contains questions and their answer, one question/answer pair per line.
+The questions will be asked randomly, but if a question is answered correctly three times, it will no longer be asked.
