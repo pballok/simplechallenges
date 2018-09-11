@@ -1,0 +1,8 @@
+Conway's Game of Life:
+
+The unvierse is a grid of square cells that could have two states: dead or alive.
+Every cell interacts with its adjacent neighbors, with the following transactions occuring every step:
+- Under-population: Any live cell with fewer than two live neighbors dies
+- Live on: Any live cell with two or three neighbors lives on
+- Overpopulation: Any live cell with more than three neighbors dies
+- Reproduction: Any dead cell with exactly three neighbors becomes a live cell
