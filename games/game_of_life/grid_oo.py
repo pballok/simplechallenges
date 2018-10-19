@@ -55,6 +55,10 @@ class Grid:
 
         self.cells = new_cells
 
+    def randomize(self):
+        for i in range(self.GRID_SIZE_N * self.GRID_SIZE_M):
+
+
 
 
 if __name__ == "__main__":
