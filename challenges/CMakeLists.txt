@@ -12,7 +12,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -Wall -Wextra -Werror -fPIC")
 ExternalProject_Add(
     catch2
     GIT_REPOSITORY      https://github.com/catchorg/Catch2
-    GIT_TAG             v2.2.3
+    GIT_TAG             v2.4.2
     PREFIX              ${CMAKE_SOURCE_DIR}/external
     CONFIGURE_COMMAND   ""
     BUILD_COMMAND       ""
@@ -24,3 +24,4 @@ enable_testing()
 
 add_subdirectory(math1)
 add_subdirectory(math2)
+add_subdirectory(interview1)

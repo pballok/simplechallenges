@@ -1,7 +1,7 @@
 #include "solution.h"
 
 #define CATCH_CONFIG_MAIN
-#include <catch.hpp>
+#include <catch2/catch.hpp>
 
 SCENARIO("Calculate result with limit 0", "[Math1]")
 {

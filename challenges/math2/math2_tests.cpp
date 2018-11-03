@@ -1,7 +1,7 @@
 #include "solution.h"
 
 #define CATCH_CONFIG_MAIN
-#include <catch.hpp>
+#include <catch2/catch.hpp>
 
 SCENARIO("Calculate GCD of two numbers where the first number is larger than the second number", "[Math2]")
 {
