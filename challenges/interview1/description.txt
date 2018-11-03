@@ -1,0 +1,18 @@
+Write a program that will be used for determining how to draw the hands of an analog clock in a GUI.  The constraints are as follows:
+ 
+The input to your function is a file with n lines where n >1.
+The first line is the number of cases your program will handle.
+N lines after will be the number of seconds since midnight.
+Example:
+ 
+2
+12345
+3600
+ 
+The output of your program should be a file that states the case number followed by the time and the degrees of the hour hand and the minute hand.
+Example:
+Case #1: Hour hand degree: 102, Minute hand degree: 150
+Case #2: Hour hand degree: 30, Minute hand degree: 0
+ 
+So, to clarify, at midnight, the number of seconds that have elapsed is 0.  The clock hands at this time are both pointing straight up.  The number of degrees for each should be zero.  As time moves forward throughout the day, the number of seconds that have elapsed since midnight will increase, and the number of degrees for each hand will increase as appropriate.
+
