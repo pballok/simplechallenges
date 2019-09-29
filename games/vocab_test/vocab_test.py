@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+import argparse
 from random import shuffle
 
 def LoadQuestions(file_name, question_list, answer_list):
@@ -24,11 +27,15 @@ def AskAQuestion(questions, answers, questions_left):
 def main():
     questions = []
     answers = []
-    max_questions = 3
 
-    LoadQuestions('questions.txt', questions, answers)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("input_file_name", help="name of the input file", action="store")
+    parser.add_argument("-q", "--num-questions", help="number of times a single question is asked", action="store", dest="max_questions", type=int, default=3)
+    args = parser.parse_args()
 
-    questions_left = list(range(len(questions))) * max_questions
+    LoadQuestions(args.input_file_name, questions, answers)
+
+    questions_left = list(range(len(questions))) * args.max_questions
 
     while questions_left:
         AskAQuestion(questions, answers, questions_left)
