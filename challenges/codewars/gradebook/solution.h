@@ -1,0 +1,6 @@
+#ifndef CODEWARS_GRADEBOOK_SOLUTION_H
+#define CODEWARS_GRADEBOOK_SOLUTION_H
+
+char getGrade(int a, int b, int c);
+
+#endif // CODEWARS_GRADEBOOK_SOLUTION_H
