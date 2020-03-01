@@ -4,12 +4,12 @@
 
 int Arge::nbYear(int p0, double percent, int aug, int p)
 {
-  double perc = 1.0 + (percent / 100.0);
   int years = 0;
   int pop = p0;
+  percent = percent / 100.0;
   while(pop < p) {
       ++years;
-      pop = pop * perc + aug;
+      pop += pop * percent + aug;
   }
 
   return years;
